@@ -1,22 +1,57 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  font-family: 'Jost', sans-serif;
 }
 
 .App-header {
+  background-image: url('/assets/Milkyway_Panorama\ True.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: whitesmoke;
 }
 
-.App-link {
-  color: #61dafb;
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  height: -webkit-fill-available; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  border-radius: 5px;
+  margin: 5%;
+  padding: 2%;
+  width: 20%;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-family: inherit;
+  font-size: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+
+.button:hover {
+  background-color: slategray!important;
+  color: #998877;
+  cursor: pointer;
+  text-shadow: 
+  1px 0px 1px #ccc, 0px 1px 1px #eee, 
+  2px 1px 1px #ccc, 1px 2px 1px #eee,
+  3px 2px 1px #ccc, 2px 3px 1px #eee,
+  4px 3px 1px #ccc, 3px 4px 1px #eee,
+  5px 4px 1px #ccc, 4px 5px 1px #eee,
+  6px 5px 1px #ccc, 5px 6px 1px #eee,
+  7px 6px 1px #ccc;
 }
